@@ -1,0 +1,60 @@
+{% extends 'core/base.html' %}
+{% block content%}
+<div class="container">
+    <h1 class="text-warning border-bottom mt-5">CONTACTS</h1>
+    <div class="heading-para text-center text-light mt-4">
+        <p class="mx-auto mb-4 mt-5">Do you have any question? Don't hesitate to contact. I will come to you within a matter of hours to help you.</p>
+    </div>
+    <div class="row text-light">
+        <div class="col-sm-9">
+            <form action="">
+                <div class="row inner">
+                    <div class="form-group col-md-6 ">
+                        <label for="Uname">Your Name</label>
+                        <input type="text" name="name" id="Uname" class="form-control" required>
+                    </div>
+                    <div class="form-group col-md-6 ">
+                        <label for="email">Email *</label>
+                        <input type="text" name="email" id="email" class="form-control" required>
+                    </div>
+                </div>
+                <div class="row inner">
+                    <div class="form-group mt-3">
+                        <label for="Uname">Subject *</label>
+                        <input type="text" name="name" id="Uname" class="form-control" required/>
+                    </div>
+                </div>
+                <div class="row inner">
+                    <div class="form-group mt-3">
+                        <label for="Uname">Message *</label>
+                        <input type="textarea" name="name" id="Uname" class="form-control" required>
+                    </div>
+                </div>
+                <input type="submit" value="Send" class="btn btn-outline-primary text-light mt-3">
+            </form>
+        </div>
+        <div class="col-sm-3">
+            <div class="row mt-3 text-center">
+                <i class="fa-solid fa-location-dot  text-success"></i>
+                <p> <b>Banur</b>, Punjab,India</p>
+            </div>
+             <div class="row mt-3 text-center">
+                <i class="fa-solid fa-phone  text-success"></i>
+                <p>+91 9000000000</p>
+            </div>
+             <div class="row mt-3 text-center">
+                <i class="fa-solid fa-envelope  text-success"></i>
+                <p>contact@email.com</p>
+            </div>
+        </div>
+        <div class="footer-icon text-center text-success mt-5 ">
+            <i class="fa-brands fa-twitter px-2"></i>
+            <i class="fa-brands fa-facebook px-2"></i>
+            <i class="fa-brands fa-instagram px-2"></i>
+        </div>
+    </div>
+
+
+</div>
+
+{% endblock content%}

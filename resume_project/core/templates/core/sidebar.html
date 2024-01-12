@@ -1,0 +1,14 @@
+{% load static %}
+<div class="h-100">
+    <div class="profile text-center">
+        <img src="{% static 'core/images/lucky.jpg'%}" alt="profilepic" height="120px" width="100px" class="img-fluid mt-5 rounded-circle" >
+    <h4 class="text-capitalize text-light mt-3 st-font">Lucky Kashyap</h4>
+    </div>
+    <hr class="text-white">
+    <div class="nav flex-column text-center container">
+        <a href="{% url 'home' %}" class="nav-link {{home}}">Home</a>
+        <a href="{% url 'service' %}" class="nav-link {{services}}">Services</a>
+        <a href="{% url 'skill' %}" class="nav-link {{skills}}">Skills</a>
+        <a href="{% url 'contact' %}" class="nav-link {{contact}}">Contact</a>
+    </div>
+</div>

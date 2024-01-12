@@ -1,0 +1,36 @@
+html, body{
+    min-height:100%;
+    background:#212529;
+}
+.container-fluid{
+    min-height:100%;
+
+}
+
+.sidebar{
+    border-right:1px solid yellow;
+}
+.nav a{
+    color:white;
+}
+.nav-link:hover{
+    color:black;
+    background:#e7cd79;
+
+}
+.nav-link.active{
+    background:cyan;
+    font-weight:bold;
+}
+
+.para1,.para2,.para3 {
+    color:green;
+    line-height:2rem;
+}
+.st-font{
+    font-family: 'Pacifico', cursive;
+    font-family: 'Sevillana', cursive;
+}
+.icons{
+    color:red;
+}
